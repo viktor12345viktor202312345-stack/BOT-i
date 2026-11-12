@@ -21,4 +21,4 @@ jobs:
       - name: Apply migrations
         run: supabase db push --remote --yes
       - name: Deploy function
-        run: supabase functions deploy bot --no-verify-jwt --project-ref "$PROJECT_REF"
+        run: supabase functions deploy bot --no-verify-jwt --project-ref "$PROJECT_REF" --yes
