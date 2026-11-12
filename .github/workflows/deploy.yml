@@ -19,6 +19,6 @@ jobs:
       - name: Link project
         run: supabase link --project-ref "$PROJECT_REF"
       - name: Apply migrations
-        run: supabase db push
+        run: supabase db push --remote
       - name: Deploy function
         run: supabase functions deploy bot --no-verify-jwt --project-ref "$PROJECT_REF"
