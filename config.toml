@@ -1,0 +1,4 @@
+project_id = "telegram-deleted-bot"
+
+[functions.bot]
+verify_jwt = false
