@@ -21,7 +21,7 @@ const backBtn = (cb: string) =>
     ? { text: "Назад", callback_data: cb, style: "danger", icon_custom_emoji_id: CE.back }
     : { text: "⬅️ Назад", callback_data: cb, style: "danger" };
 const MENU_IMAGE = Deno.env.get("MENU_IMAGE_URL") ??
-  "https://raw.githubusercontent.com/viktor12345viktor202312345-stack/BOT-i/blob/main/logo.jpg";
+  "https://githubusercontent.com/viktor12345viktor202312345-stack/BOT-i/blob/main/logo.jpg";
 const POLICY_URL = Deno.env.get("POLICY_URL") ??
   "https://github.com/viktor12345viktor202312345-stack/BOT-i/blob/main/PRIVACY.md";
 
